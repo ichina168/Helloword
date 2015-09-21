@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UILabel *logLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 40)];
+    logLabel.text = @"My first github program!";
+    [self.view addSubview:logLabel];
 }
 
 - (void)didReceiveMemoryWarning {
