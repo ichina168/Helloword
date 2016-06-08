@@ -13,6 +13,7 @@
 		1342C2BD1BB00C8C007BA637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1342C2BB1BB00C8C007BA637 /* Main.storyboard */; };
 		1342C2BF1BB00C8C007BA637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1342C2BE1BB00C8C007BA637 /* Assets.xcassets */; };
 		1342C2C21BB00C8C007BA637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1342C2C01BB00C8C007BA637 /* LaunchScreen.storyboard */; };
+		9FF703421D08178500281476 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF703411D08178500281476 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1342C2BE1BB00C8C007BA637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1342C2C11BB00C8C007BA637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1342C2C31BB00C8C007BA637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF703401D08178500281476 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		9FF703411D08178500281476 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1342C2C01BB00C8C007BA637 /* LaunchScreen.storyboard */,
 				1342C2C31BB00C8C007BA637 /* Info.plist */,
 				1342C2B21BB00C8C007BA637 /* Supporting Files */,
+				9FF703401D08178500281476 /* TableViewCell.h */,
+				9FF703411D08178500281476 /* TableViewCell.m */,
 			);
 			path = Helloword;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1342C2BA1BB00C8C007BA637 /* ViewController.m in Sources */,
+				9FF703421D08178500281476 /* TableViewCell.m in Sources */,
 				1342C2B71BB00C8C007BA637 /* AppDelegate.m in Sources */,
 				1342C2B41BB00C8C007BA637 /* main.m in Sources */,
 			);
@@ -298,6 +304,7 @@
 				1342C2C81BB00C8C007BA637 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
