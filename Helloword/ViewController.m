@@ -21,6 +21,7 @@
     logLabel.text = @"My first github program!";
     logLabel.text = @"Lest";
     [self.view addSubview:logLabel];
+    
 }
 
 - (void)didReceiveMemoryWarning {
